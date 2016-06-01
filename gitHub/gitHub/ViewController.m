@@ -25,6 +25,10 @@
     NSLog(@"----666");
 
      NSLog(@"----你好很大佛奥 放到放到撒 啊范德萨");
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.backgroundColor = [UIColor orangeColor];
+    [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
     
 }
 
