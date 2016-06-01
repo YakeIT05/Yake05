@@ -30,6 +30,7 @@
     [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
 //    不错
+      NSLog(@"----分支");
     
 }
 
